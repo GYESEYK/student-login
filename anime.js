@@ -108,3 +108,5 @@
     window.location.href = "librarian.html";
     }
 
+
+    window.location.href = "https://github.com/coups95/lms.git";
