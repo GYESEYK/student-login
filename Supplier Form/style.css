@@ -1,0 +1,67 @@
+    #book-form {
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 25px;
+        background: #f3deed;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    
+    #book-form h2 {
+        text-align: center;
+        color: #f55c42;
+        margin-bottom: 20px;
+    }
+    
+    #book-form label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+    }
+    
+    #book-form input[type="text"],
+    #book-form select,
+    #book-form input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #f6c0ea;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    
+    #book-form button {
+        width: 100%;
+        background-color: #f55c42;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #book-form button:hover {
+        background-color: #e04832;
+    }
+    
+    #book-preview {
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #f071a8;
+        padding: 20px;
+        border-left: 4px solid #f55c42;
+        border-radius: 8px;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    
+    #book-preview img {
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    

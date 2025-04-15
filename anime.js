@@ -105,8 +105,7 @@
     cartData = [];
 
     // Redirect to the librarian system (replace with actual path)
-    window.location.href = "librarian.html";
     }
 
 
-    window.location.href = "https://github.com/coups95/lms.git";
+
