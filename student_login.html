@@ -18,17 +18,18 @@
         <div class="title">
         <h1>GIMPA LIBRARY!</h1>
         </div>
-        <div class="button">
-        <a href="#" class="btn">FICTION</a>
-        <a href="#" class="btn">NON FICTION</a>
-        <a href="#" class="btn">TEXT BOOKS</a>
-        </div>
+            <div class="button">
+                <a href="#fiction" class="btn">FICTION</a>
+                <a href="#nonfiction" class="btn">NON FICTION</a>
+                <a href="#textbooks" class="btn">TEXT BOOKS</a>
+            </div>
+            
     </header>
 
 
     <section class="books">
         <h2>Explore Our Collection 📚</h2>
-    <div class="Fiction">
+    <div class="Fiction" id="fiction">
         <h2>
             FICTION
         </h2>
@@ -37,19 +38,22 @@
         </div>
     </div>
 
-    <div class="book-row">
-        <div class="book-card">
-            <img src="images/book1.jpeg" alt="Book 1">
-            <p class="book-title">Roll or Thunder Hear My Cry</p>
-        </div>
+        <div class="book-row">
+            <div class="book-card">
+                <img src="images/book1.jpeg" alt="Book 1">
+                <button class="add-btn" onclick="addToCart('Roll or Thunder Hear My Cry')">Add</button>
+                <p class="book-title">Roll or Thunder Hear My Cry</p>
+            </div>
     
         <div class="book-card">
             <img src="images/book2.jpeg" alt="Book 2">
+            <button class="add-btn" onclick="addToCart('The Calculating Stars')">Add</button>
             <p class="book-title">The Calculating Stars</p>
         </div>
     
         <div class="book-card">
             <img src="images/book3.jpg" alt="Book 3">
+            <button class="add-btn" onclick="addToCart('Shuri')">Add</button>
             <p class="book-title">Shuri</p>
         </div>
     </div>
@@ -57,20 +61,24 @@
     <div class="book-row1">
         <div class="book-card">
             <img src="images/book4.jpeg" alt="Book 4">
+            <button class="add-btn" onclick="addToCart('All the light we cannot see')">Add</button>
             <p class="book-title">All the light we cannot see</p>
         </div>
     
         <div class="book-card">
             <img src="images/book5.jpeg" alt="Book 5">
+            <button class="add-btn" onclick="addToCart('The Poppy War')">Add</button>
             <p class="book-title">The Poppy War</p>
         </div>
     
         <div class="book-card">
             <img src="images/book6.jpeg.jpg" alt="Book 6">
+            <button class="add-btn" onclick="addToCart('7Fates')">Add</button>
             <p class="book-title">7Fates</p>
         </div>
     </div>
-    <div class="Nonfiction">
+
+    <div class="Nonfiction" id="nonfiction">
         <h2>
             Non-FICTION
         </h2>
@@ -79,7 +87,156 @@
         </div>
     </div>
 
+    <div class="book-row3">
+        <div class="book-card">
+            <img src="images/book7.jpg" alt="Book 7">
+            <button class="add-btn" onclick="addToCart('The Women')">Add</button>
+            <p class="book-title">The Women</p>
+        </div>
+    
+        <div class="book-card">
+            <img src="images/book8.jpeg" alt="Book 8">
+            <button class="add-btn" onclick="addToCart('Educated')">Add</button>
+            <p class="book-title">Educated</p>
+        </div>
+    
+        <div class="book-card">
+            <img src="images/book9.jpg" alt="Book 9">
+            <button class="add-btn" onclick="addToCart('The Glass Castle')">Add</button>
+            <p class="book-title">The Glass Castle</p>
+        </div>
+    </div>
+        <div class="book-row4">
+            <div class="book-card">
+                <img src="images/book10.webp" alt="Book 10">
+                <button class="add-btn" onclick="addToCart('Wandering Stars')">Add</button>
+                <p class="book-title">Wandering Stars</p>
+            </div>
+        
+            <div class="book-card">
+                <img src="images/book11.webp" alt="Book 11">
+                <button class="add-btn" onclick="addToCart('Creation Lake')">Add</button>
+                <p class="book-title">Creation Lake</p>
+            </div>
+        
+            <div class="book-card">
+                <img src="images/book12.webp" alt="Book 12">
+                <button class="add-btn" onclick="addToCart('Dinner For Vampires')">Add</button>
+                <p class="book-title">Dinner For Vampires</p>
+            </div>
+        </div>
+
+        <div class="book-row5">
+            <div class="book-card">
+                <img src="images/book13.webp" alt="Book 13">
+                <button class="add-btn" onclick="addToCart('Selling Sexy')">Add</button>
+                <p class="book-title">Selling Sexy</p>
+            </div>
+        
+            <div class="book-card">
+                <img src="images/book14.webp" alt="Book 14">
+                <button class="add-btn" onclick="addToCart('Who Could Ever Love You')">Add</button>
+                <p class="book-title">Who Could Ever Love You</p>
+            </div>
+        
+            <div class="book-card">
+                <img src="images/book15.webp" alt="Book 15">
+                <button class="add-btn" onclick="addToCart('Beyond The Wall')">Add</button>
+                <p class="book-title">Beyond The Wall</p>
+            </div>
+        </div>
+
+        <div class="TEXTB" id="textbooks">
+            <h2>
+                TEXT BOOKS
+            </h2>
+            <div class="line">
+    
+            </div>
+        </div>
+    
+        <div class="book-row6">
+            <div class="book-card">
+                <img src="images/book16.png" alt="Book 16">
+                <button class="add-btn" onclick="addToCart('Big Ideas Math')">Add</button>
+                <p class="book-title">Big Ideas Math</p>
+            </div>
+        
+            <div class="book-card">
+                <img src="images/book17.jpeg" alt="Book 17">
+                <button class="add-btn" onclick="addToCart('Metric Version')">Add</button>
+                <p class="book-title">Metric Version</p>
+            </div>
+        
+            <div class="book-card">
+                <img src="images/book18.jpg" alt="Book 18">
+                <button class="add-btn" onclick="addToCart('Big Ideas Math-Algebra 1')">Add</button>
+                <p class="book-title">Big Ideas Math-Algebra 1</p>
+            </div>
+        </div>
+            <div class="book-row7">
+                <div class="book-card">
+                    <img src="images/book19.jpg" alt="Book 10">
+                    <button class="add-btn" onclick="addToCart('Counselling Psychology')">Add</button>
+                    <p class="book-title">Counselling Psychology</p>
+                </div>
+            
+                <div class="book-card">
+                    <img src="images/book20.webp" alt="Book 11">
+                    <button class="add-btn" onclick="addToCart('Equity and Trusts')">Add</button>
+                    <p class="book-title">Equity and Trusts</p>
+                </div>
+            
+                <div class="book-card">
+                    <img src="images/book21.jpeg" alt="Book 12">
+                    <button class="add-btn" onclick="addToCart('The Humanities')">Add</button>
+                    <p class="book-title">The Humanities</p>
+                </div>
+            </div>
+
+
+            
+
+
+
     </section>
 
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>GIMPA Library</h3>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/gimpagh/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/gimpagh/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/@GIMPAmedia" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+        <div class="cart-panel" id="cartPanel">
+            <div class="cart-header">
+            <h2>CARTS 🛒🛒</h2>
+            <button class="close-cart" onclick="closeCart()">×</button>
+            </div>
+        
+            <div class="cart-content">
+            <ul id="cartItems" class="cart-items">
+
+            </ul>
+            </div>
+        
+            <div class="cart-footer">
+            <button class="checkout-btn" onclick="checkout()">Checkout</button>
+
+            </div>
+        </div>
+            
+
+
+
+    <script src="anime.js"></script>
     </body>
     </html>
